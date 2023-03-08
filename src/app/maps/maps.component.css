@@ -1,0 +1,8 @@
+capacitor-google-map {
+  display: inline-block;
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+app-maps {
+  background: none;
+}
