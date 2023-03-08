@@ -1,7 +1,7 @@
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import { GoogleMap } from '@capacitor/google-maps';
 import {Capacitor} from "@capacitor/core";
-import {environment} from "../../../environments/environment";
+import {environment} from "../../environments/environment";
 
 @Component({
   selector: 'app-maps',
