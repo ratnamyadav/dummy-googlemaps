@@ -46,4 +46,10 @@ export class MapsComponent implements OnInit {
       }
     }, 1000)
   }
+
+  ngOnDestroy () {
+    if(this.map) {
+      this.map.destroy();
+    }
+  }
 }
